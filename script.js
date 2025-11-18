@@ -65,7 +65,7 @@ entryForm.addEventListener('submit', function(e) {
 // ========================================
 
 // 🧩 GANTI 'URL_FOTO_PUZZLE' dengan link foto untuk puzzle
-const PUZZLE_IMAGE = 'ara1.jpg';
+const PUZZLE_IMAGE = 'https://raw.githubusercontent.com/altschmerzsiuu/NeptuneBirthdayParty/main/assets/ara1.jpg';
 
 let puzzlePieces = [];
 let selectedPiece = null;
@@ -385,14 +385,14 @@ const allPolaroids = document.querySelectorAll('.polaroid');
 
 // Data pesan rahasia untuk setiap foto
 const secretMessages = {
-    0: "LAGI, LAGI, LAGII, semoga dikasih rezeki banyak-banyakkkK!",
-    1: "cu bangett pacarkuu, besok-besok udah gak ada lagi pulang dari mahameraa hehehe, bisa jalan-jalan terus, buy kasi uangg!",
+    0: "LAGI, LAGI, LAGII, semoga dikasih rezeki banyak-banyakkkK! 💸✨",
+    1: "cu bangett pacarkuu 🫶, besok-besok udah gak ada lagi pulang dari mahameraa hehehe, bisa jalan-jalan terus, buy kasi uangg!",
     2: "SMR bakal selalu jadi tempat yang kotor gak sih sekarang buy, sekaligus tempat pelarian kitaa, seru senang bareng disana, gak ada yang tau, cuma kita, semoga kamu selalu suka dengan pulang baliknyaa hehe",
-    3: "Maaf yaa bubuyy, aku sering banget ngomong yang nyakitin hati buyy, salah satunya tentang ini! Kedepannya sebebas apapun yang ada di pikiran buy untuk bahas tentang ini akan selalu aman. Semua doa juga pada akhirnya selalu bermula pada ucapan yang terus berulang",
-    4: "Ketemu lagi setelah LDR, yang pertama gak siiiii?! aku lupaa! tapi ini masih gak seru, soalnya masih jaim bangett awalawal, tapi hari besoknya udah K4C4U M3N!!!",
-    5: "Bocil ini masih lucuu bangett diliat-liat, gakk kek bocil motor jamet ireng ingusan jametttttttt",
-    6: "POTOBUT KESEKIAN KALINYAA! memang nagihh ehh, tapi kalau baguss, habis banyakk uang cuma buat potobut, tapi seruuu!",
-    7: "First time nonton mas bas! Semoga masih di kasih kesempatan buat nonton konser-konser kesukaan kita dehhh, MASIH PENGEN BANGETTT BUAT LAGI LAGI LAGII!",
+    3: "Maaf yaa bubuyy 😔, aku sering banget ngomong yang nyakitin hati buyy, salah satunya tentang ini! Kedepannya sebebas apapun yang ada di pikiran buy untuk bahas tentang ini akan selalu aman. Semua doa juga pada akhirnya selalu bermula pada ucapan yang terus berulang ❤️",
+    4: "Ketemu lagi setelah LDR, yang pertama gak siiiii?! aku lupaa! tapi ini masih gak seru, soalnya masih jaim bangett awalawal, tapi hari besoknya udah K4C4U M3N!!! 🤪",
+    5: "Bocil ini masih lucuu bangett diliat-liat, gakk kek bocil motor jamet ireng ingusan jametttttttt 🏍️💨",
+    6: "POTOBUT KESEKIAN KALINYAA! memang nagihh ehh, tapi kalau baguss, habis banyakk uang cuma buat potobut, tapi seruuu! 📸",
+    7: "First time nonton mas bas! 🎤🎶 Semoga masih di kasih kesempatan buat nonton konser-konser kesukaan kita dehhh, MASIH PENGEN BANGETTT BUAT LAGI LAGI LAGII!",
     8: "HARI-HARI NYA CEPET BETUL, PERASAAN CAMPUR ADUKNYA JUGA MASIH KEINGET BANGETT! Kita udah sama-sama cape sama LDR, tapi... 9 BULAN LAGIIII",
     9: "Prambanan! semogaaa masih dikasih rezeki yang baguss yaa kedepannyaa dan selalu, buat banyak tempat lainnya! 🏛️",
     10: "Can't explain the feeling when I'm with you... ✨",
