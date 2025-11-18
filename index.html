@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For My Stardust Traveler</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;600;700&family=Quicksand:wght@300;400;500;600&family=Cormorant+Garamond:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Logo -->
+    <div class="logo">
+        For You <span class="logo-star">✨</span>
+    </div>
+
+    <!-- Floating Particles Background -->
+    <div class="particles" id="particles"></div>
+
+    <!-- Floating Clouds -->
+    <div class="clouds" id="clouds"></div>
+
+    <!-- ========================================
+         PAGE 1: WELCOME + FORM
+    ========================================= -->
+    <section class="page" id="page1">
+        <div class="page-content">
+            <h1 class="welcome-title">Welcome, Stardust Traveler</h1>
+            <p class="welcome-subtitle">Before we begin this magical journey, tell me about yourself...</p>
+            
+            <form id="entryForm" class="entry-form">
+                <div class="form-group">
+                    <label for="name">Your Name</label>
+                    <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="age">Your Age</label>
+                    <input type="number" id="age" name="age" placeholder="Enter your age" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="anniversary">Our Anniversary Date</label>
+                    <input type="date" id="anniversary" name="anniversary" required>
+                </div>
+
+                <button type="submit" class="btn-primary">Start the Journey ✨</button>
+            </form>
+
+            <div class="scroll-hint">↓</div>
+        </div>
+    </section>
+
+    <!-- Landing Page -->
+    <section class="landing" id="landing">
+        <h1 class="title">Happy Birthday</h1>
+        <p class="subtitle">✨ A magical day for someone special ✨</p>
+        <button class="btn" onclick="showScrapbook()">Enter the Memories</button>
+    </section>
+
+    <!-- ========================================
+         PAGE 2: SCRAPBOOK (12 PHOTOS)
+    ========================================= -->
+    <section class="page" id="page2">
+        <div class="page-content">
+            <h1 class="page-title">Our Memory Lane</h1>
+            <p class="page-subtitle">Every moment with you is a treasure</p>
+
+            <div class="scrapbook-grid">
+                <!-- PHOTO 1 - VIDEO -->
+                <div class="polaroid">
+                    <div class="polaroid-image">
+                        <video width="200%" height="auto" controls muted loop autoplay>
+                            <source src="vt1.mp4" type="video/mp4">
+                            Browser Anda tidak mendukung video ini.
+                        </video>
+                    </div>
+                    <div class="polaroid-caption">
+                        Malioo ~
+                    </div>
+                </div>
+
+                <!-- PHOTO 2 -->
+                <div class="polaroid">
+                    <div class="polaroid-image">
+                        <img src="poto1.jpg" alt="Memory 2">
+                    </div>
+                    <div class="polaroid-caption">
+                        Badut masi bau kelek baru pulang dari mahameru
+                    </div>
+                </div>
+
+                <!-- PHOTO 3 -->
+                <div class="polaroid">
+                    <div class="polaroid-image">
+                        <img src="poto2.jpg" alt="Memory 3">
+                    </div>
+                    <div class="polaroid-caption">
+                        Doves, '25 on Blank Canvas
+                    </div>
+                </div>
+
+                <!-- PHOTO 4 -->
+                <div class="polaroid">
+                    <div class="polaroid-image">
+                        <img src="poto3.jpg" alt="Memory 4">
+                    </div>
+                    <div class="polaroid-caption">
+                        ~ 2027, Bismillah ~
+                    </div>
+                </div>
+
+                <!-- PHOTO 5 -->
+                <div class="polaroid">
+                    <div class="polaroid-image">
+                        <img src="poto4.jpg" alt="Memory 5">
+                    </div>
+                    <div class="polaroid-caption">
+                        Pinjol Dulu Ces!
+                    </div>
+                </div>
+
+                <!-- PHOTO 6 -->
+                <div class="polaroid">
+                    <div class="polaroid-image">
+                        <img src="poto5.jpg" alt="Memory 6">
+                    </div>
+                    <div class="polaroid-caption">
+                        Si Bocil Jamet!
+                    </div>
+                </div>
+
+                <!-- PHOTO 7 - VIDEO -->
+                <div class="polaroid">
+                    <div class="polaroid-image">
+                        <video width="150%" height="auto" controls muted loop autoplay>
+                            <source src="vt2.mp4" type="video/mp4">
+                            Browser Anda tidak mendukung video ini.
+                        </video>
+                    </div>
+                    <div class="polaroid-caption">
+                        SMR BRRRRRRRR...
+                    </div>
+                </div>
+
+                <!-- PHOTO 8 -->
+                <div class="polaroid">
+                    <div class="polaroid-image">
+                        <img src="poto6.jpg" alt="Memory 8">
+                    </div>
+                    <div class="polaroid-caption">
+                        Sungkem, First Time Ke Jawir bareng Pacar
+                    </div>
+                </div>
+
+                <!-- PHOTO 9 -->
+                <div class="polaroid">
+                    <div class="polaroid-image">
+                        <img src="poto7.jpg" alt="Memory 9">
+                    </div>
+                    <div class="polaroid-caption">
+                        Malio Again! Never get bored...
+                    </div>
+                </div>
+
+                <!-- PHOTO 10 - VIDEO -->
+                <div class="polaroid">
+                    <div class="polaroid-image">
+                        <video width="150%" height="auto" controls muted loop autoplay>
+                            <source src="poto10.mp4" type="video/mp4">
+                            Browser Anda tidak mendukung video ini.
+                        </video>
+                    </div>
+                    <div class="polaroid-caption">
+                        Prambanan
+                    </div>
+                </div>
+
+                <!-- PHOTO 11 -->
+                <div class="polaroid">
+                    <div class="polaroid-image">
+                        <img src="poto8.jpg" alt="Memory 11">
+                    </div>
+                    <div class="polaroid-caption">
+                        Can't explain da feeling....
+                    </div>
+                </div>
+
+                <!-- PHOTO 12 -->
+                <div class="polaroid">
+                    <div class="polaroid-image">
+                        <img src="poto9.jpg" alt="Memory 12">
+                    </div>
+                    <div class="polaroid-caption">
+                        Jogja lagi yukk...
+                    </div>
+                </div>
+            </div>
+
+            <!-- ========================================
+                MODAL UNTUK ZOOM FOTO
+            ========================================= -->
+            <div id="photoModal" class="photo-modal">
+                <span class="modal-close">&times;</span>
+                <div class="modal-content-wrapper">
+                    <div class="modal-polaroid">
+                        <!-- FRONT SIDE (Foto) -->
+                        <div class="polaroid-front">
+                            <div class="modal-image">
+                                <!-- Foto/video muncul di sini -->
+                            </div>
+                            <div class="modal-caption">
+                                <!-- Caption muncul di sini -->
+                            </div>
+                            <div class="flip-hint">👆 Tap to flip</div>
+                        </div>
+                        
+                        <!-- BACK SIDE (Tulisan Rahasia) -->
+                        <div class="polaroid-back">
+                            <div class="back-content">
+                                <!-- Pesan rahasia muncul di sini -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>   
+    </section>
+
+    <!-- ========================================
+         PAGE 3: PUZZLE GAME (4x4 = 16 pieces)
+    ========================================= -->
+    <section class="page" id="page3">
+        <div class="page-content">
+            <h1 class="page-title">Complete the Puzzle</h1>
+            <p class="page-subtitle">Put the pieces together to reveal something special...</p>
+
+            <div class="puzzle-container">
+                <div id="puzzleBoard" class="puzzle-board"></div>
+            </div>
+
+            <!-- QR Code appears after puzzle solved -->
+            <div id="qrReveal" class="qr-reveal" style="display: none;">
+                <div class="qr-box">
+                    <h2 class="qr-title">🎉 You Did It! 🎉</h2>
+                    
+                    <p class="qr-subtitle">Anda punya <span id="timerCountdown">10</span> detik untuk scan!</p>
+                    
+                    <p class="qr-subtitle">Scan this code for your HADIAHHHH...</p>
+                    <img src="qr.png" alt="QR Code" class="qr-image">
+                </div>
+            </div>
+
+            <div class="scroll-hint">↓</div>
+        </div>
+    </section>
+
+    <!-- ========================================
+         PAGE 4: FINAL MESSAGE
+    ========================================= -->
+    <section class="page" id="page4">
+        <div class="page-content">
+            <div class="message-box">
+                <h1 class="page-title">A Message From Pluto</h1>
+                <div class="message-content">
+                    <!-- 💌 GANTI dengan pesan kamu -->
+                    <p class="message-text">
+                        Selamat ulang tahun bungakuu, maaf untuk akhir-akhir ini yang selalu menjadi api disaat dirimu bahkan luntang-lantung mencari tempat amanmu, maaf karena selalu menuntut terlalu tinggi, maaf karena terlalu mendikte kehidupanmu terlalu keras dan selalu dan selaluu lagi melihat kamu dengan kacamataku sendiri
+                    </p>
+                    <p class="message-text">
+                        Banyak salahku yang belum bisa untuk menjadikan tahunmu sebaik anganmu, hilang arahmu padaku pun masi sangat masuk akal untuk diingat dan selalu. Maaf, karena belum bisa menjadi yang terbaik dan selalu menganggap diri ini sudah melakukan semuanya, yang lagi-lagi aku lihat dari kacamataku sendiri.
+                    </p>
+                    <p class="message-text">
+                        Usahaku tidak pernah berhenti, mungkin akan singgah sementara. Tapu untuk kita, entah cepat atau lambat, tentang angan-angan yang sudah kita bangun sedari awal kita, aku usahakan hadirnya di hadapan kita. Tentang apa yang selalu kamu inginkan, tentang apa yang kamu takutkan, semua masih dan terus akan diusahakan, dan kali ini, akan kucoba melihat dari kepala muu.
+                    </p>
+
+                    <p class="message-text">
+                        Semoga diumurmu yang kali ini, rezeki dan segala hal baik di dunia ini akan terus memeluk erat tubuhmu, kepalamu dengan sangat aman. Selalu diberikan kepala yang dingin untuk semua masalah yang ada dihadapanmu nanti, dan apapun yang kamu cita-citakan, apapun yang sudah kamu doakan di banyaknya sujudmu, semoga segera terkabul, setidaknya beberapa, untuk tahun ini!
+                    </p>
+
+                    <p class="message-signature">
+                        panjang umur dan sehat selaluu, bungakuu<br>
+                        <!-- GANTI dengan nama kamu -->
+                        Lyy ✨
+                    </p>
+                </div>
+            </div>
+
+            <div class="scroll-hint">↓</div>
+        </div>
+    </section>
+
+    <!-- ========================================
+         PAGE 5: RATING & REVIEW
+    ========================================= -->
+    <section class="page" id="page5">
+        <div class="page-content">
+            <h1 class="page-title">How Was Your Experience?</h1>
+            <p class="page-subtitle">I'd love to hear your thoughts! 💜</p>
+
+            <div class="review-container">
+                <!-- Star Rating (Visual Only) -->
+                <div class="star-rating">
+                    <span class="star" data-rating="1">⭐</span>
+                    <span class="star" data-rating="2">⭐</span>
+                    <span class="star" data-rating="3">⭐</span>
+                    <span class="star" data-rating="4">⭐</span>
+                    <span class="star" data-rating="5">⭐</span>
+                </div>
+
+                <p class="rating-text">Click the stars to rate</p>
+
+                <!-- Link to Google Form -->
+                <!-- 📋 GANTI LINK_GOOGLE_FORM_KAMU dengan URL Google Form kamu -->
+                <a href="https://forms.gle/LkA6KhAS1CaUsGLX6" target="_blank" class="btn-primary review-btn">
+                    Submit Your Review 💌
+                </a>
+
+                <p class="thank-you-text">Thank you for being part of this journey ✨</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Audio Background Music -->
+    <audio id="bgMusic" loop>
+        <source src="Matter Halo - Red Light (Official Music Video).mp3" type="audio/mpeg">
+    </audio>
+
+    <!-- Button untuk kontrol musik (opsional) -->
+    <button id="musicToggle" style="position: fixed; bottom: 20px; right: 20px; z-index: 1000; 
+        padding: 15px; border-radius: 50%; border: none; background: rgba(139, 123, 168, 0.8);
+        color: white; cursor: pointer; font-size: 20px;">
+        🔊
+    </button>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
